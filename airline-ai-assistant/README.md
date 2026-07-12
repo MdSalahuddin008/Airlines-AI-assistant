@@ -11,6 +11,23 @@ This project walks through building an airline customer support chatbot in progr
 3. Swapping a hardcoded Python dictionary for a **SQLite database** (`prices.db`) as the source of truth for prices.
 4. Extending the assistant to be **multimodal** — generating a destination image with DALL-E-3 and a spoken response with OpenAI's TTS model, all wired into a custom `gr.Blocks` UI.
 
+
+## Application Preview
+
+### Chat Assistant
+
+<p align="center">
+  <img src="asset/airline_output_1_chat.png" alt="Airline AI Assistant Chat Interface" width="900">
+</p>
+
+### Multimodal Assistant
+
+<p align="center">
+  <img src="asset/airline_output_2_multimodal.png" alt="Airline AI Assistant Multimodal Interface" width="900">
+</p>
+
+
+
 ## Files
 
 | File | Description |
